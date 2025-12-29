@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ELVN-ELVN: Clean-label millet-milk ice cream website. Dark, premium, cosmic-themed single-page experience.">
+    <meta name="keywords" content="millet milk ice cream, clean label, premium ice cream">
+    <meta property="og:title" content="ELVN-ELVN - Clean-Label Millet-Milk Ice Cream">
+    <meta property="og:description" content="Premium cosmic-themed ice cream made with millet and milk. Now scooping.">
+    <title>ELVN-ELVN - Clean-Label Millet-Milk Ice Cream</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; background-color: #0a0e27; color: #e0e0e0; line-height: 1.6; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        header { padding: 30px 0; text-align: center; border-bottom: 1px solid #1a2a4a; }
+        header h1 { font-size: 2.5rem; font-weight: 700; color: #00d9ff; letter-spacing: 2px; margin-bottom: 10px; }
+        header p { font-size: 1rem; color: #a0a0a0; }
+        section { padding: 80px 0; border-bottom: 1px solid #1a2a4a; }
+        h2 { font-size: 2.2rem; font-weight: 700; margin-bottom: 40px; color: #00d9ff; }
+        h3 { font-size: 1.4rem; font-weight: 600; color: #ffffff; margin-bottom: 15px; }
+        p { font-size: 1.1rem; color: #c0c0c0; margin-bottom: 20px; line-height: 1.8; }
+        .hero { background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 50%, #0a0e27 100%); padding: 120px 0; text-align: center; }
+        .hero h1 { font-size: 3.5rem; margin-bottom: 20px; color: #00d9ff; }
+        .hero p { font-size: 1.3rem; color: #a0d9ff; margin-bottom: 40px; }
+        .cta-button { display: inline-block; background-color: #00d9ff; color: #0a0e27; padding: 15px 40px; font-weight: 700; text-decoration: none; border-radius: 5px; transition: background-color 0.3s; cursor: pointer; border: none; font-size: 1rem; }
+        .cta-button:hover { background-color: #00b8cc; }
+        .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; margin-bottom: 40px; }
+        .card { background-color: #141829; padding: 30px; border-radius: 8px; border: 1px solid #1a2a4a; }
+        .card h3 { color: #00d9ff; }
+        .flavor-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; }
+        .flavor-card { background-color: #141829; padding: 25px; border-radius: 8px; border: 1px solid #1a2a4a; text-align: center; }
+        .flavor-card h3 { color: #00d9ff; margin-bottom: 10px; }
+        .flavor-card p { font-size: 0.95rem; }
+        ul { margin-left: 20px; }
+        li { margin-bottom: 12px; color: #c0c0c0; }
+        footer { background-color: #050810; padding: 40px 0; text-align: center; border-top: 1px solid #1a2a4a; font-size: 0.9rem; color: #606080; }
+        footer p { margin-bottom: 10px; }
+        .social-link { color: #00d9ff; text-decoration: none; }
+        .social-link:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <!-- HERO SECTION -->
+    <div class="hero">
+        <div class="container">
+            <h1>ELVN-ELVN</h1>
+            <p>Clean-Label Millet-Milk Ice Cream</p>
+            <p style="color: #80c0ff; font-size: 1.1rem; margin-bottom: 30px;">Dark. Premium. Cosmic.</p>
+            <button class="cta-button" onclick="document.getElementById('flavours').scrollIntoView({behavior: 'smooth'})">Now Scooping</button>
+        </div>
+    </div>
+
+    <!-- WHAT IS ELVN-ELVN -->
+    <section id="about">
+        <div class="container">
+            <h2>What is ELVN-ELVN</h2>
+            <p>ELVN-ELVN is a premium ice cream brand that combines the ancient nutrition of millet with the indulgence of ice cream. We believe in clean labels, honest ingredients, and the perfect scoop. Every flavor tells a story of simplicity, quality, and cosmic indulgence.</p>
+        </div>
+    </section>
+
+    <!-- WHY MILLET-MILK ICE CREAM -->
+    <section>
+        <div class="container">
+            <h2>Why Millet-Milk Ice Cream</h2>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>Ancient Grain, Modern Taste</h3>
+                    <p>Millet has sustained civilizations for thousands of years. We've reimagined it as a creamy, delicious ice cream base that's naturally nutritious without compromise.</p>
+                </div>
+                <div class="card">
+                    <h3>Clean Label Promise</h3>
+                    <p>No artificial flavors. No synthetic additives. No mystery ingredients. Just millet, milk, and flavors you recognize. Transparency in every scoop.</p>
+                </div>
+                <div class="card">
+                    <h3>Guilt-Free Indulgence</h3>
+                    <p>Premium taste doesn't require artificial shortcuts. Our millet-milk base delivers that creamy, satisfying indulgence with ingredients you can trust.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CLEAN-LABEL PROMISE -->
+    <section>
+        <div class="container">
+            <h2>Our Clean-Label Promise</h2>
+            <ul>
+                <li>100% natural ingredients only</li>
+                <li>No artificial colors or flavors</li>
+                <li>No high-fructose corn syrup</li>
+                <li>No synthetic additives or preservatives</li>
+                <li>Sustainably sourced millet</li>
+                <li>Cold-pressed milk for optimal nutrition</li>
+            </ul>
+            <p style="margin-top: 40px; font-size: 1rem; color: #a0d9ff;">We're committed to keeping it simple. Real ingredients. Real flavor. Real quality.</p>
+        </div>
+    </section>
+
+    <!-- FLAVOURS -->
+    <section id="flavours">
+        <div class="container">
+            <h2>Flavours</h2>
+            <div class="flavor-grid">
+                <div class="flavor-card">
+                    <h3>Cosmic Vanilla</h3>
+                    <p>Pure, sophisticated vanilla with millet's gentle sweetness</p>
+                </div>
+                <div class="flavor-card">
+                    <h3>Midnight Chocolate</h3>
+                    <p>Rich, dark chocolate meets the earthiness of millet</p>
+                </div>
+                <div class="flavor-card">
+                    <h3>Stardust Pistachio</h3>
+                    <p>Creamy pistachio with a delicate millet undertone</p>
+                </div>
+                <div class="flavor-card">
+                    <h3>Aurora Mango</h3>
+                    <p>Vibrant mango sweetness with millet's natural creaminess</p>
+                </div>
+                <div class="flavor-card">
+                    <h3>Nebula Strawberry</h3>
+                    <p>Fresh strawberry with millet's subtle grain notes</p>
+                </div>
+                <div class="flavor-card">
+                    <h3>Eclipse Cardamom</h3>
+                    <p>Exotic cardamom warmth with cool millet smoothness</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HOW IT'S MADE -->
+    <section>
+        <div class="container">
+            <h2>How It's Made</h2>
+            <p>Our process is transparent. We source premium millet from sustainable farms, gently process it to create our signature milk base, blend with carefully selected natural ingredients, and churn to perfection. Every batch is made in small quantities to ensure quality and freshness. This is ice cream the way it should be—simple, honest, and delicious.</p>
+        </div>
+    </section>
+
+    <!-- NOW SCOOPING / SOCIAL CTA -->
+    <section>
+        <div class="container">
+            <h2>Now Scooping</h2>
+            <p style="font-size: 1.2rem; margin-bottom: 30px;">ELVN-ELVN is live and ready to indulge your senses. Find us at select premium locations or order online.</p>
+            <p style="margin-bottom: 30px;">Follow our cosmic journey on Instagram for flavor drops, behind-the-scenes content, and exclusive updates.</p>
+            <a href="https://instagram.com" class="social-link" style="font-size: 1.1rem;">Visit ELVN-ELVN on Instagram</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 ELVN-ELVN. All rights reserved.</p>
+            <p>Clean Label. Premium Taste. Cosmic Experience.</p>
+            <p style="margin-top: 20px; font-size: 0.85rem; color: #404060;">
+                Made with care. No artificial anything.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
